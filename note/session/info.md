@@ -1,7 +1,7 @@
 # koa2实现session
 
 ## 前言
-koa2原生功能只提供了cookie的操作，但是没有提供session操作。session就只用自己实现或者通过第三方中间件实现。在koa2中实现session的方案有一下几种
+koa2原生功能只提供了cookie的操作，但是没有提供session操作。session就只用自己实现或者通过第三方中间件实现。在koa2中实现session的方案有以下几种
 - 如果session数据量很小，可以直接存在内存中
 - 如果session数据量很大，则需要存储介质存放session数据
 
